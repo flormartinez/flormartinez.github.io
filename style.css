@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+body{
+	font-family: "Poiret+One", Verdana, Serif;
+	background-color: black;
+	color: white;	
+}
+p{
+	color: white;
+}
+
+div img{
+	width: 100px;
+}
+
+div > img{
+	height: 100px;
+}
+div + div {
+	background-color: black;
+}
+div ~ div {
+	background-color: orange;
+}
+
+#p1:hover{
+	background-color: white;
+}
