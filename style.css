@@ -1,21 +1,44 @@
-@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
 
 body{
-	font-family: "Poiret+One", Verdana, Serif;
-	background-color: black;
-	color: white;	
+	font-family: Verdana, Arial;
+	background-color: gray;
+	color: white;
 }
+
+h1{
+	font-family: "Comfortaa",Verdana, Arial;
+	font-style: oblique;
+	color: #084B8A;
+	text-align: center;
+}
+
+h2{
+	font-family: "Comfortaa",Verdana, Arial;
+	font-style: normal;
+	font-weight: 200px;
+	text-align: center;
+}
+div{
+	height: 0%;
+	margin: 0px;
+	width: 20%;
+	height: 10%;
+	text-align: left;
+	background-color: #01DFD7;
+	padding: 1%;
+	float: left;
+}
+
 p{
 	color: white;
 }
 
-div img{
-	width: 100px;
+img{
+	width: 15%;
+	height: 15%;
 }
 
-div > img{
-	height: 100px;
-}
 div + div {
 	background-color: black;
 }
