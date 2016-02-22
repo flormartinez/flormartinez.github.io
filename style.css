@@ -1,51 +1,57 @@
-@import url(https://fonts.googleapis.com/css?family=Comfortaa);
-
 body{
-	font-family: Verdana, Arial;
-	background-color: gray;
-	color: white;
-}
-
-h1{
-	font-family: "Comfortaa",Verdana, Arial;
-	font-style: oblique;
-	color: #084B8A;
-	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 10px 10px 10px 10px;
+	background-color: #E0ECF8;
+	color: #000000;
 }
 
 h2{
-	font-family: "Comfortaa",Verdana, Arial;
-	font-style: normal;
-	font-weight: 200px;
-	text-align: center;
+	color: #4000FF; 
 }
-div{
-	height: 0%;
-	margin: 0px;
-	width: 20%;
-	height: 10%;
-	text-align: left;
-	background-color: #01DFD7;
-	padding: 1%;
-	float: left;
+
+th{
+	background-color:#D8D8D8; 
+	color: #000000;
+	height: 100px;
+	font-size: 30px;
+}
+
+td{
+	background-color:white; 
+	color: black;
+	height: 50px;
+}
+
+#objetivos{
+	clear: both
+}
+#titulo{
+	color: #FF0080; 
+	font-size: 20px;
+	text-align: center;
+}	
+
+#datos{
+	background-color: #E6E6E6; 
+	color: #000000; 
+	padding: 10px;
+	margin: 20px 20px 20px 20px; 
+	display: block;
+}
+
+#principal{
+	height: 200px;
+	float: left;		
 }
 
 p{
-	color: white;
+	color: #2E2E2E;
 }
 
-img{
-	width: 15%;
-	height: 15%;
+.subtitulo{
+	style="color: #0B0B3B;
 }
 
-div + div {
-	background-color: black;
-}
-div ~ div {
-	background-color: orange;
-}
-
-#p1:hover{
-	background-color: white;
+.letra-chica{
+	font-size: 14px;
 }
